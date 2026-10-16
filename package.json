@@ -1,8 +1,8 @@
 {
   "name": "little-english-daily",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cat dictation.part* | tar -xz -C dist && cat theme.part* | tar -xz -C dist && cat confidence.part* | tar -xz -C dist"
+    "build": "mkdir -p dist && cat dictation.part* | tar -xz -C dist && cat theme.part* | tar -xz -C dist && cat confidence.part* | tar -xz -C dist && cat learnfirst.part* | tar -xz -C dist"
   }
 }
