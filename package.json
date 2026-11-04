@@ -1,8 +1,1 @@
-{
-  "name": "little-english-daily",
-  "version": "1.5.0",
-  "private": true,
-  "scripts": {
-    "build": "mkdir -p dist && cat dictation.part* | tar -xz -C dist && cat theme.part* | tar -xz -C dist && cat confidence.part* | tar -xz -C dist && cat learnfirst.part* | tar -xz -C dist && cat readingfix.part* | tar -xz -C dist && cat fivewords.part* | tar -xz -C dist"
-  }
-}
+{"name":"little-english-daily","version":"1.5.1","private":true,"scripts":{"build":"mkdir -p dist && cat dictation.part* | tar -xz -C dist && cat theme.part* | tar -xz -C dist && cat confidence.part* | tar -xz -C dist && cat learnfirst.part* | tar -xz -C dist && cat readingfix.part* | tar -xz -C dist && cat fivewords.part* | tar -xz -C dist"}}
